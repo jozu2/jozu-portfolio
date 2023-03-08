@@ -46,10 +46,8 @@ const WhySkills = () => {
               <h1>PROBLEM SOLVER</h1>
               <p>
                 I am a web developer and UI designer who loves solving complex
-                problems. Throughout my career, I have encountered various
-                challenges that have required creative solutions. I enjoy
-                tackling difficult problems and finding innovative ways to
-                overcome them.
+                problems.I enjoy tackling difficult problems and finding
+                innovative ways to overcome them.
               </p>
             </div>
           </div>

@@ -1,3 +1,8 @@
+.body-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 20px) {
   .hero-container {
     width: 100%;
@@ -388,7 +393,7 @@
   .hero-container {
     .hero-h1 {
       .line-one {
-        margin-top: 32vh;
+        margin-top: 25vh;
         line-height: 3.5rem;
         .large {
           font-size: 12.5rem;

@@ -7,10 +7,11 @@ import { SiIndeed } from "react-icons/si";
 import { Link } from "react-router-dom";
 import AboutMe from "../section2";
 import WhySkills from "../section3";
+import Projects from "../section4";
 
 const Hero = () => {
   return (
-    <>
+    <div className="body-container">
       <div className="hero-container">
         <div className="hero-h1">
           <div className="line-one">
@@ -46,7 +47,8 @@ const Hero = () => {
 
       <AboutMe />
       <WhySkills />
-    </>
+      <Projects />
+    </div>
   );
 };
 
