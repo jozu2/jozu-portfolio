@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 import { useState } from "react";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);

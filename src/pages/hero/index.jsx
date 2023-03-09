@@ -11,7 +11,7 @@ import Projects from "../section4";
 
 const Hero = () => {
   return (
-    <div className="body-container">
+    <div className="body-container" id="home">
       <div className="hero-container">
         <div className="hero-h1">
           <div className="line-one">
