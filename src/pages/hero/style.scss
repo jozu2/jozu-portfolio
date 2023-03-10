@@ -1,19 +1,23 @@
 .body-container {
   max-width: 1920px;
   margin: 0 auto;
+  scroll-behavior: smooth;
+  transition: 1s ease;
+  background-color: var(--textWhite);
 }
 
 @media screen and (min-width: 20px) {
   .hero-container {
     width: 100%;
-
+    background-color: transparent;
     height: 100vh;
     .hero-h1 {
+      color: var(--textBlack);
       .line-one {
         display: flex;
         align-items: baseline;
         justify-content: flex-end;
-        margin-top: 37vh;
+        padding-top: 37vh;
         line-height: 1.5rem;
         .large {
           font-size: 3.7rem;
@@ -29,7 +33,7 @@
       }
 
       hr {
-        border-color: none;
+        border-color: var(--textBlack);
         width: 80%;
         margin-left: 15%;
       }
@@ -65,14 +69,17 @@
       margin-left: 15%;
       button {
         cursor: pointer;
-        background-image: url("../assets/img/blackBtn.png");
+        background-image: var(--image);
         background-color: transparent;
-        border: none;
+        color: var(--textBlack);
         background-size: contain;
         background-repeat: no-repeat;
         font-size: 0.625rem;
         padding: 0.5rem 0.7rem 0.7rem 0.7rem;
         letter-spacing: -0.055em;
+        border: 0.125em solid;
+        border-color: --textBlack;
+        border-radius: 30px;
       }
     }
     .hero-socials {
@@ -84,7 +91,7 @@
       a {
         cursor: pointer;
         margin-left: 1.2rem;
-        color: black;
+        color: var(--textBlack);
       }
     }
   }
@@ -99,7 +106,7 @@
         display: flex;
         align-items: baseline;
         justify-content: flex-end;
-        margin-top: 37vh;
+        padding-top: 37vh;
         line-height: 1.5rem;
         .large {
           font-size: 4rem;
@@ -145,9 +152,8 @@
       margin-top: 10vh;
       margin-left: 15%;
       button {
-        background-image: url("../assets/img/blackBtn.png");
+        background-image: var(--urlWhiteAssets);
         background-color: transparent;
-        border: none;
         background-size: contain;
         background-repeat: no-repeat;
         font-size: 0.625rem;
@@ -162,7 +168,6 @@
       margin-right: 8.5%;
       a {
         margin-left: 1.2rem;
-        color: black;
       }
     }
   }
@@ -332,7 +337,7 @@
   .hero-container {
     .hero-h1 {
       .line-one {
-        margin-top: 30vh;
+        padding-top: 30vh;
         line-height: 3.5rem;
         .large {
           font-size: 9.5rem;
@@ -393,7 +398,7 @@
   .hero-container {
     .hero-h1 {
       .line-one {
-        margin-top: 33vh;
+        padding-top: 33vh;
         line-height: 3.5rem;
         .large {
           font-size: 12.5rem;

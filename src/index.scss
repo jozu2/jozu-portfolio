@@ -1,3 +1,21 @@
+:root {
+  --backrgroundHero: white;
+  --backrgroundAboutme: black;
+  --textBlack: #000000;
+  --textWhite: white;
+  --bgcolorW: black;
+  --shadow: #000000;
+}
+
+[data-theme="dark"] {
+  --backrgroundHero: black;
+  --backrgroundAboutme: white;
+  --textBlack: white;
+  --textWhite: black;
+  --bgcolorW: black;
+  --shadow: rgb(122, 122, 122);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -12,4 +30,16 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+body.dark {
+  --background-color: var(--textBlack);
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
 }

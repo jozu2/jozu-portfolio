@@ -1,0 +1,14 @@
+.toggle-Btn {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  right: 3%;
+  top: 2%;
+  z-index: 35;
+  border-radius: 50%;
+  border: none;
+  font-size: 2rem;
+  color: var(--textBlack);
+  background-color: transparent;
+  cursor: pointer;
+}

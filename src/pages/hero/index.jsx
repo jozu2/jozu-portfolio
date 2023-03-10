@@ -8,11 +8,12 @@ import { Link } from "react-router-dom";
 import AboutMe from "../section2";
 import WhySkills from "../section3";
 import Projects from "../section4";
+import DarkMode from "../../components/darkmode";
 
 const Hero = () => {
   return (
     <div className="body-container" id="home">
-      <div className="hero-container">
+      <div className="hero-container" id="home">
         <div className="hero-h1">
           <div className="line-one">
             <span className="small">HELLO, I'M</span>
@@ -30,16 +31,19 @@ const Hero = () => {
           <button>DOWNLOAD CV</button>
         </div>
         <div className="hero-socials">
-          <Link>
+          <Link to="https://fb.com/delliorra" target="_blank">
             <BsFacebook />
           </Link>
-          <Link>
+          <Link to="https://t.me/jowzu" target="_blank">
             <FaTelegramPlane />
           </Link>
-          <Link>
+          <Link to="https://github.com/jozu2" target="_blank">
             <BsGithub />
           </Link>
-          <Link>
+          <Link
+            to="https://www.linkedin.com/in/joshua-melendres-155814264/"
+            target="_blank"
+          >
             <SiIndeed />
           </Link>
         </div>

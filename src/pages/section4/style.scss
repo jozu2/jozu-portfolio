@@ -3,79 +3,98 @@
     margin-top: 10%;
     font-size: 2em;
     text-align: center;
+    color: var(--textBlack);
+    background-color: var(--textWhite);
     font-weight: normal;
   }
   .projects-container {
     width: 100%;
     height: auto;
+
     margin-top: 5%;
+    padding-bottom: 8em;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
+    color: var(--textBlack);
+
     .project-1 {
       .img {
         background-image: url("../assets/img/project-1.png");
       }
     }
-    .project-1:hover {
-      .img {
-        transition: all 1s ease;
-        background-image: url("../assets/img/project-1-colored.png");
-      }
-      .title {
-        text-decoration: underline;
-      }
-    }
     .project-2 {
       .img {
-        background-image: url("../assets/img/project-1.png");
+        background-image: url("../assets/img/project-2a.png");
       }
     }
-
-    .project-3 {
-      .img {
-        background-image: url("../assets/img/project-1.png");
-      }
+  }
+  .project-1:hover {
+    .img {
+      transition: all 1s ease;
+      background-image: url("../assets/img/project-1-colored.png");
     }
-
-    .project-4 {
-      .img {
-        background-image: url("../assets/img/project-1.png");
-      }
+    .title {
+      text-decoration: underline;
     }
+  }
 
-    .box {
-      cursor: pointer;
-      width: 300px;
-      height: 300px;
-      margin-bottom: 10%;
-      border-radius: 30px;
-      border: black solid 0.125em;
+  .project-2:hover {
+    .img {
+      transition: all 1s ease;
+      background-image: url("../assets/img/project-2.png");
+    }
+    .title {
+      text-decoration: underline;
+    }
+  }
 
-      box-shadow: 10px 10px 8px #000000;
-      .title {
-        width: 100%;
-        padding: 0.2em;
-        font-size: 1.1rem;
-        font-weight: 700;
-        letter-spacing: -0.045em;
-      }
-      .img {
-        width: 100%;
-        height: 180px;
-        background-size: cover;
-        background-position: center;
+  .project-3 {
+    .img {
+      background-image: url("../assets/img/project-1.png");
+    }
+  }
 
-        border-top-right-radius: 28px;
-        border-top-left-radius: 28px;
-      }
-      .description {
-        letter-spacing: -0.015em;
-        font-size: 0.9rem;
-        padding: 0.1rem 1rem;
-      }
+  .project-4 {
+    .img {
+      background-image: url("../assets/img/project-1.png");
+    }
+  }
+
+  .box {
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10%;
+    border-radius: 30px;
+    border: solid 0.125em;
+    border-color: var(--textBlack);
+    box-shadow: 10px 10px 8px var(--shadow);
+    background-color: var(--textBlack);
+    color: var(--textWhite);
+    .title {
+      width: 100%;
+      padding: 0.2em;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -0.045em;
+    }
+    .img {
+      width: 100%;
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+
+      border-top-right-radius: 28px;
+      border-top-left-radius: 28px;
+    }
+    .description {
+      letter-spacing: -0.015em;
+      font-size: 0.9rem;
+      padding: 0.1rem 1rem;
     }
   }
 }
