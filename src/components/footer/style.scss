@@ -69,6 +69,12 @@
           margin: 0 auto;
           overflow: show;
         }
+        button:hover {
+          background-color: var(--textBlack);
+          color: var(--textWhite);
+          border-color: var(--textWhite);
+          box-shadow: 4px 4px 2px var(--shadow);
+        }
       }
 
       .footer-details {
@@ -91,7 +97,7 @@
           a {
             cursor: pointer;
             margin: 0 0.7rem;
-            color: white;
+            color: var(--textWhite);
           }
         }
         .email {

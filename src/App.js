@@ -6,6 +6,8 @@ import Hero from "./pages/hero";
 import useLocalStorage from "use-local-storage";
 import "./app.scss";
 import { MdOutlineDarkMode } from "react-icons/md";
+import Fade from "react-reveal/Fade";
+
 const App = () => {
   const [theme, setTheme] = useLocalStorage("theme" ? "dark" : "light");
 
@@ -20,11 +22,13 @@ const App = () => {
         <Router>
           <Navbar />
 
-          <button onClick={switchTheme} className="toggle-Btn">
-            <MdOutlineDarkMode />
-          </button>
+          <Fade casscade duration="3500">
+            <button onClick={switchTheme} className="toggle-Btn">
+              <MdOutlineDarkMode />
+            </button>
+          </Fade>
           <Routes>
-            <Route path="/" element={<Hero />} />
+            <Route path="/jozu-portfolio" element={<Hero />} />
           </Routes>
           <Footer />
         </Router>

@@ -16,9 +16,15 @@ const Navbar = () => {
         </div>
       </div>
       <ul className={nav ? "menu active" : "menu"}>
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <a href="#home" onClick={handleNav}>
+          <li>Home</li>
+        </a>
+        <a href="#works" onClick={handleNav}>
+          <li>Works</li>
+        </a>
+        <a href="#footer" onClick={handleNav}>
+          <li>Contact</li>
+        </a>
       </ul>
     </div>
   );

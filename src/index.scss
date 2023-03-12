@@ -2,7 +2,7 @@
   --backrgroundHero: white;
   --backrgroundAboutme: black;
   --textBlack: #000000;
-  --textWhite: white;
+  --textWhite: rgba(255, 255, 255);
   --bgcolorW: black;
   --shadow: #000000;
 }
@@ -10,9 +10,9 @@
 [data-theme="dark"] {
   --backrgroundHero: black;
   --backrgroundAboutme: white;
-  --textBlack: white;
-  --textWhite: black;
-  --bgcolorW: black;
+  --textBlack: rgb(255, 255, 255);
+  --textWhite: rgb(0, 0, 0);
+  --bgcolorW: rgb(255, 255, 255);
   --shadow: rgb(122, 122, 122);
 }
 
@@ -42,4 +42,8 @@ a:visited,
 a:active {
   color: inherit;
   text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -2,14 +2,13 @@
   max-width: 1920px;
   margin: 0 auto;
   scroll-behavior: smooth;
-  transition: 1s ease;
+  transition: 0.5s ease;
   background-color: var(--textWhite);
 }
 
 @media screen and (min-width: 20px) {
   .hero-container {
     width: 100%;
-    background-color: transparent;
     height: 100vh;
     .hero-h1 {
       color: var(--textBlack);
@@ -68,18 +67,24 @@
       margin-top: 10vh;
       margin-left: 15%;
       button {
+        background-color: var(--textWhite);
         cursor: pointer;
         background-image: var(--image);
-        background-color: transparent;
         color: var(--textBlack);
         background-size: contain;
         background-repeat: no-repeat;
         font-size: 0.625rem;
-        padding: 0.5rem 0.7rem 0.7rem 0.7rem;
+        padding: 0.5rem 0.9rem 0.7rem 0.9rem;
         letter-spacing: -0.055em;
         border: 0.125em solid;
         border-color: --textBlack;
         border-radius: 30px;
+      }
+      button:hover {
+        background-color: var(--textBlack);
+        color: var(--textWhite);
+        border-color: var(--textWhite);
+        box-shadow: 4px 4px 2px var(--shadow);
       }
     }
     .hero-socials {
@@ -152,12 +157,10 @@
       margin-top: 10vh;
       margin-left: 15%;
       button {
-        background-image: var(--urlWhiteAssets);
-        background-color: transparent;
         background-size: contain;
         background-repeat: no-repeat;
         font-size: 0.625rem;
-        padding: 0.5rem 0.7rem 0.7rem 0.7rem;
+        padding: 0.5rem 1rem 0.7rem 1rem;
       }
     }
     .hero-socials {
@@ -211,7 +214,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         font-size: 0.725rem;
-        padding: 0.5rem 0.7rem 0.7rem 0.7rem;
+        padding: 0.5rem 1rem 0.7rem 1rem;
       }
     }
     .hero-socials {

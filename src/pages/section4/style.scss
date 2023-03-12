@@ -4,7 +4,7 @@
     font-size: 2em;
     text-align: center;
     color: var(--textBlack);
-    background-color: var(--textWhite);
+
     font-weight: normal;
   }
   .projects-container {
@@ -23,30 +23,19 @@
 
     .project-1 {
       .img {
-        background-image: url("../assets/img/project-1.png");
+        background-image: url("../assets/img/project-1-colored.png");
       }
     }
     .project-2 {
       .img {
-        background-image: url("../assets/img/project-2a.png");
+        background-image: url("../assets/img/project-2.png");
       }
     }
   }
-  .project-1:hover {
-    .img {
-      transition: all 1s ease;
-      background-image: url("../assets/img/project-1-colored.png");
-    }
-    .title {
-      text-decoration: underline;
-    }
-  }
-
-  .project-2:hover {
-    .img {
-      transition: all 1s ease;
-      background-image: url("../assets/img/project-2.png");
-    }
+  .project-1:hover,
+  .project-2:hover,
+  .project-3:hover,
+  .project-4:hover {
     .title {
       text-decoration: underline;
     }
@@ -54,13 +43,13 @@
 
   .project-3 {
     .img {
-      background-image: url("../assets/img/project-1.png");
+      background-image: url("../assets/img/project-3.png");
     }
   }
 
   .project-4 {
     .img {
-      background-image: url("../assets/img/project-1.png");
+      background-image: url("../assets/img/project-4.png");
     }
   }
 
@@ -75,6 +64,7 @@
     box-shadow: 10px 10px 8px var(--shadow);
     background-color: var(--textBlack);
     color: var(--textWhite);
+    overflow: hidden;
     .title {
       width: 100%;
       padding: 0.2em;
@@ -85,11 +75,15 @@
     .img {
       width: 100%;
       height: 180px;
-      background-size: cover;
+      background-size: contain;
       background-position: center;
-
+      background-repeat: no-repeat;
+      transition: transform 0.5s ease;
       border-top-right-radius: 28px;
       border-top-left-radius: 28px;
+    }
+    .img:hover {
+      transform: scale(1.2);
     }
     .description {
       letter-spacing: -0.015em;
