@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jozu-portfolio/static/css/main.1ef27b6b.css",
+    "main.css": "/jozu-portfolio/static/css/main.9296b2b3.css",
     "main.js": "/jozu-portfolio/static/js/main.3bb93f24.js",
     "static/media/project-3.png": "/jozu-portfolio/static/media/project-3.116c05cb8bbc140ca203.png",
     "static/media/project-2.png": "/jozu-portfolio/static/media/project-2.c833db96e30cd5c3199c.png",
@@ -10,11 +10,11 @@
     "static/media/JOSHUA MELENDRES.pdf": "/jozu-portfolio/static/media/JOSHUA MELENDRES.b966e78ec4f291aea504.pdf",
     "static/media/project-4.png": "/jozu-portfolio/static/media/project-4.bb182f8ccb6c7413241b.png",
     "index.html": "/jozu-portfolio/index.html",
-    "main.1ef27b6b.css.map": "/jozu-portfolio/static/css/main.1ef27b6b.css.map",
+    "main.9296b2b3.css.map": "/jozu-portfolio/static/css/main.9296b2b3.css.map",
     "main.3bb93f24.js.map": "/jozu-portfolio/static/js/main.3bb93f24.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef27b6b.css",
+    "static/css/main.9296b2b3.css",
     "static/js/main.3bb93f24.js"
   ]
 }
