@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/jozu-portfolio/static/css/main.1ef27b6b.css",
-    "main.js": "/jozu-portfolio/static/js/main.4d264d33.js",
+    "main.js": "/jozu-portfolio/static/js/main.3bb93f24.js",
     "static/media/project-3.png": "/jozu-portfolio/static/media/project-3.116c05cb8bbc140ca203.png",
     "static/media/project-2.png": "/jozu-portfolio/static/media/project-2.c833db96e30cd5c3199c.png",
     "static/media/circleDP-Colored.png": "/jozu-portfolio/static/media/circleDP-Colored.49932d8bb36439154266.png",
     "static/media/circleDP.png": "/jozu-portfolio/static/media/circleDP.b4014f2f8a90b45946ae.png",
     "static/media/project-1-colored.png": "/jozu-portfolio/static/media/project-1-colored.c3800dfaf73e41b8a7d0.png",
-    "static/media/JOSHUA MELENDRES.pdf": "/jozu-portfolio/static/media/JOSHUA MELENDRES.665bfe52679c066547e4.pdf",
+    "static/media/JOSHUA MELENDRES.pdf": "/jozu-portfolio/static/media/JOSHUA MELENDRES.b966e78ec4f291aea504.pdf",
     "static/media/project-4.png": "/jozu-portfolio/static/media/project-4.bb182f8ccb6c7413241b.png",
     "index.html": "/jozu-portfolio/index.html",
     "main.1ef27b6b.css.map": "/jozu-portfolio/static/css/main.1ef27b6b.css.map",
-    "main.4d264d33.js.map": "/jozu-portfolio/static/js/main.4d264d33.js.map"
+    "main.3bb93f24.js.map": "/jozu-portfolio/static/js/main.3bb93f24.js.map"
   },
   "entrypoints": [
     "static/css/main.1ef27b6b.css",
-    "static/js/main.4d264d33.js"
+    "static/js/main.3bb93f24.js"
   ]
 }
